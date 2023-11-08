@@ -9,3 +9,16 @@
     document.getElementById("lista").appendChild(node)
  });
 
+ /* 
+ 
+const agregar = document.getElementById("agregar");
+const lista = document.getElementById("lista");
+
+agregar.addEventListener('click', function() {
+    nuevoElemento = prompt('Escribe un texto');
+    if(nuevoElemento) {
+        lista.innerHTML += '<li>' + nuevoElemento + '</li>)
+    }
+})
+
+ */
